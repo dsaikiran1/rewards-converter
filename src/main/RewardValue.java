@@ -6,10 +6,10 @@ public class RewardValue{
     this.cash = cash;
     this.miles = cash/miles_to_cash_rate; 
   }
-public RewardValue(int miles){
+/*public RewardValue(int miles){
 this.cash = miles*miles_to_cash_rate;
   this.miles = miles;
-}
+}*/
 public static int getCashValue(){
 return cash;
 }
